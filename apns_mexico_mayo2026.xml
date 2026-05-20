@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<apns xmlns:xi="http://www.w3.org/2001/XInclude" version="8">
+	<!-- Telcel -->
+	<apn mcc="334" mnc="02" carrier="Telcel Internet" apn="internet.itelcel.com" password="webgprs2002" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap,supl" user="webgprs"/>
+	<apn mcc="334" mnc="02" carrier="Telcel MMS" apn="mms.itelcel.com" mmsc="http://mms.itelcel.com/servlets/mms" mmsport="8080" mmsproxy="148.233.151.240" password="mmsgprs2003" protocol="IPV4V6" roaming_protocol="IPV4V6" type="mms" user="mmsgprs"/>
+	<apn mcc="334" mnc="020" carrier="Telcel Internet" apn="internet.itelcel.com" password="webgprs2002" protocol="IPV4V6" roaming_protocol="IPV4V6" server="http://www.telcel.com" type="default,xcap,supl" user="webgprs" mtu_v4="1410"/>
+	<apn mcc="334" mnc="020" carrier="Telcel MMS" apn="mms.itelcel.com" mmsc="http://mms.itelcel.com/servlets/mms" mmsport="8080" mmsproxy="148.233.151.240" password="mmsgprs2003" protocol="IPV4V6" roaming_protocol="IPV4V6" type="mms" user="mmsgprs"/>
+	<apn mcc="334" mnc="020" carrier="ims" apn="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims"/>
+	<apn mcc="334" mnc="020" carrier="SOS" apn="sos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" user_visible="0"/>
+	<!-- Telcel OMV-->
+	<apn mcc="334" mnc="020" carrier="Soriana M&#243;vil" apn="internet.soriana.mx" protocol="IPV4V6" type="default,supl"/>
+	<apn mcc="334" mnc="020" carrier="Freedompop" apn="internet.mvne1.com" protocol="IPV4V6" type="default,supl"/>
+	<apn mcc="334" mnc="020" carrier="Oui M&#243;vil" apn="internet.mvne1.com" protocol="IPV4V6" type="default,supl"/>
+	<!-- Movistar -->
+	<apn mcc="334" mnc="03" carrier="Movistar INTERNET" apn="internet.movistar.mx" password="movistar" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap,supl" user="movistar" authtype="1"/>
+	<apn mcc="334" mnc="03" carrier="Movistar MMS" apn="mms.movistar.mx" mmsc="http://mms.movistar.mx" mmsport="80" mmsproxy="10.2.20.1" password="movistar" protocol="IPV4V6" roaming_protocol="IPV4V6" type="mms" user="movistar"/>
+	<apn mcc="334" mnc="030" carrier="Movistar Internet" apn="internet.movistar.mx" password="movistar" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap,supl" user="movistar" authtype="1"/>
+	<apn mcc="334" mnc="030" carrier="Movistar MMS" apn="mms.movistar.mx" mmsc="http://mms.movistar.mx" mmsport="80" mmsproxy="10.2.20.1" password="movistar" authtype="1" protocol="IPV4V6" roaming_protocol="IPV4V6" type="mms" user="movistar"/>
+	<!-- Movistar OMV -->
+	<apn mcc="334" mnc="030" carrier="Simplii" apn="internet.simplii.mx" protocol="IPV4V6" type="default,supl"/>
+	<apn mcc="334" mnc="030" carrier="Virgin Mobile" apn="internet.virginmobile.mx" protocol="IPV4V6" type="default,supl"/>
+	<apn mcc="334" mnc="030" carrier="Weex" apn="internet.weex.mx" protocol="IPV4V6" type="default,supl"/>
+	<!-- Unefon/Iusacell -->
+	<apn mcc="334" mnc="004" carrier="Iusacell/Unef&#243;n INTERNET" apn="web.iusacellgsm.mx" password="iusacellgsm" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap,supl" user="iusacellgsm"/>
+	<apn mcc="334" mnc="004" carrier="Iusacell/Unef&#243;n MMS" apn="mms.iusacellgsm.mx" mmsc="http://mms.iusacell3g.com/" mmsport="9201" mmsproxy="192.200.001.110" password="mmsiusacellgsm" protocol="IPV4V6" roaming_protocol="IPV4V6" type="mms" user="mmsiusacellgsm"/>
+	<apn mcc="334" mnc="005" carrier="Iusacell/Unef&#243;n INTERNET" apn="web.iusacellgsm.mx" password="iusacellgsm" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap,supl" user="iusacellgsm"/>
+	<apn mcc="334" mnc="005" carrier="Iusacell/Unef&#243;n MMS" apn="mms.iusacellgsm.mx" mmsc="http://mms.iusacell3g.com/" mmsport="9201" mmsproxy="192.200.1.110" password="mmsiusacellgsm" protocol="IPV4V6" roaming_protocol="IPV4V6" type="mms" user="mmsiusacellgsm"/>
+	<!-- AT&T -->
+	<apn mcc="334" mnc="050" carrier="AT&amp;T Internet" apn="web.iusacellgsm.mx" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap"/>
+	<apn mcc="334" mnc="050" carrier="Internet" apn="web.attmex.mx" protocol="IPV4V6" roaming_protocol="IP" type="default,xcap" user_editable="0"/>
+	<apn mcc="334" mnc="050" carrier="Location" apn="supl.attmex.mx" protocol="IP" roaming_protocol="IP" type="supl" user_visible="0"/>
+	<apn mcc="334" mnc="050" carrier="MMS" apn="mms.attmex.mx" mmsc="http://mms.att.com.mx" mmsport="8080" mmsproxy="129.192.129.104" protocol="IP" roaming_protocol="IPV4V6" type="mms"/>
+	<apn mcc="334" mnc="050" carrier="Modem" apn="modem.attmex.mx" protocol="IP" roaming_protocol="IP" type="dun" user_editable="0"/>
+	<apn mcc="334" mnc="050" carrier="IMS" apn="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims" user_visible="0"/>
+	<apn mcc="334" mnc="090" carrier="Internet" apn="wap.attmex.mx" protocol="IPV4V6" roaming_protocol="IP" type="default,xcap"/>
+	<apn mcc="334" mnc="090" carrier="Location" apn="location.attmex.mx" protocol="IP" roaming_protocol="IP" type="supl"/>
+	<apn mcc="334" mnc="090" carrier="MMS" apn="mms.attmex.mx" mmsc="http://mms.att.com.mx" mmsport="8080" mmsproxy="129.192.129.104" protocol="IP" roaming_protocol="IP" type="mms"/>
+	<apn mcc="334" mnc="090" carrier="Modem" apn="modem.attmex.mx" protocol="IP" roaming_protocol="IP" type="dun"/>
+	<!-- AT&T OMV -->
+	<apn mcc="334" mnc="050" carrier="YO M&#243;bile" apn="movil.yomobile.mx" protocol="IPV4V6" type="default,supl"/>
+	<!-- Altán -->
+	<apn mcc="334" mnc="140" carrier="Internet" apn="internet.altan" protocol="IPV4V6" roaming_protocol="IP" type="default,xcap,supl"/>
+	<apn mcc="334" mnc="140" carrier="MMS" apn="mms.altan" mmsc="http://10.172.10.10/mmsc/MMS" mmsport="8080" protocol="IP" roaming_protocol="IPV4V6" type="mms"/>
+	<apn mcc="334" mnc="140" carrier="IMS" apn="IMS" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims" user_visible="0"/>
+	<apn mcc="334" mnc="140" carrier="Alt&#225;n Redes" apn="internet.altan.com" protocol="IPV4V6" type="default,supl,dun"/>
+	<!-- Altán OMV-->
+	<apn mcc="334" mnc="140" carrier="Bait" apn="internet.wm.com" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,dun"/>
+	<apn mcc="334" mnc="140" carrier="CFE TEIT" apn="internet.cfe.mx" authtype="1" protocol="IPV4V6" type="default,supl,dun"/>
+	<apn mcc="334" mnc="140" carrier="Coppel" apn="internet.altan.com" protocol="IPV4V6" type="default,supl,dun"/>
+	<apn mcc="334" mnc="140" carrier="Diri" apn="internet.diri.com" protocol="IPV4V6" type="default,supl,dun"/>
+	<apn mcc="334" mnc="140" carrier="Izzi M&#243;vil" apn="internet.izzi.mx" protocol="IPV4V6" type="default,supl,dun"/>
+	<apn mcc="334" mnc="140" carrier="Mega M&#243;vil" apn="mega45g.com" protocol="IPV4V6" type="default,supl,dun"/>
+	<apn mcc="334" mnc="140" carrier="Newww" apn="internet.newww.mx" protocol="IPV4V6" type="default,supl,dun"/>
+	<apn mcc="334" mnc="140" carrier="Pillofon" apn="internet.pillofon.mx" protocol="IPV4V6" type="default,supl,dun"/>
+	<apn mcc="334" mnc="140" carrier="Red TIC" apn="internet.Wikikatat.com" authtype="3" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl"/>
+</apns>
