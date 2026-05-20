@@ -12,6 +12,7 @@
 	<apn mcc="334" mnc="020" carrier="Soriana M&#243;vil" apn="internet.soriana.mx" protocol="IPV4V6" type="default,supl"/>
 	<apn mcc="334" mnc="020" carrier="Freedompop" apn="internet.mvne1.com" protocol="IPV4V6" type="default,supl"/>
 	<apn mcc="334" mnc="020" carrier="Oui M&#243;vil" apn="internet.mvne1.com" protocol="IPV4V6" type="default,supl"/>
+	<apn mcc="334" mnc="020" carrier="Redi Coppel" apn="internet.redi.coppel.com" protocol="IPV4V6" type="default,supl,dun"/>
 	<!-- Movistar -->
 	<apn mcc="334" mnc="03" carrier="Movistar INTERNET" apn="internet.movistar.mx" password="movistar" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap,supl" user="movistar" authtype="1"/>
 	<apn mcc="334" mnc="03" carrier="Movistar MMS" apn="mms.movistar.mx" mmsc="http://mms.movistar.mx" mmsport="80" mmsproxy="10.2.20.1" password="movistar" protocol="IPV4V6" roaming_protocol="IPV4V6" type="mms" user="movistar"/>
@@ -47,7 +48,6 @@
 	<!-- Altán OMV-->
 	<apn mcc="334" mnc="140" carrier="Bait" apn="internet.wm.com" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,dun"/>
 	<apn mcc="334" mnc="140" carrier="CFE TEIT" apn="internet.cfe.mx" authtype="1" protocol="IPV4V6" type="default,supl,dun"/>
-	<apn mcc="334" mnc="140" carrier="Coppel" apn="internet.altan.com" protocol="IPV4V6" type="default,supl,dun"/>
 	<apn mcc="334" mnc="140" carrier="Diri" apn="internet.diri.com" protocol="IPV4V6" type="default,supl,dun"/>
 	<apn mcc="334" mnc="140" carrier="Izzi M&#243;vil" apn="internet.izzi.mx" protocol="IPV4V6" type="default,supl,dun"/>
 	<apn mcc="334" mnc="140" carrier="Mega M&#243;vil" apn="mega45g.com" protocol="IPV4V6" type="default,supl,dun"/>
