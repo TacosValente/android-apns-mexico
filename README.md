@@ -1,9 +1,10 @@
 # android-apns-mexico
 APNs de Android para operadoras de México, incluye tambien las OMV mas usadas.
 
-*AT&T
+AT&T
 - YO Mobile
-*Altán
+
+Altán
 - Bait
 - CFE TEIT
 - Redi Coppel
@@ -13,12 +14,15 @@ APNs de Android para operadoras de México, incluye tambien las OMV mas usadas.
 - NeWWW
 - Pillofon
 - Red TIC
-*Movistar
+
+Movistar
 - Simplii
 - Virgin Mobile
 - weex
-*Telcel
+
+Telcel
 - FreedomPop
 - Soriana Movil
 - Oui Elektra
-*Unefon/Iusacell
+
+Unefon/Iusacell
